@@ -16,33 +16,26 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    font-size: 1.5em;
+    font-size: 1em;
+    opacity: 0.7;
 }
 
-/* HEADER STYLING INKL NAVBAR */
-header{
-    background-color: rgb(67, 114, 77);
-}
-
-
-/* .myMenu{
-    display: block;
-    margin: 0;
-    padding-left: 0;
+.title{
+    min-height: 80px;
     text-align: center;
-} */
+    padding: 20px;
+    font-size: 2em;
+    font-weight: 500;
+    color:  rgb(67, 114, 77);
 
-
-/* .myMenu li{
-    display: block;
-    position: relative;
-
-} */
-
-.myDropdown{
-    display: none;
-    width: 100%;
 }
+
+
+nav{
+    background-color: rgb(67, 114, 77);
+
+}
+
 
 ul li a {
     display: block;
@@ -59,32 +52,10 @@ ul li a:hover {
     background: rgb(96, 138, 105);
 }
 
-li:hover ul {
-    display: block;
-    position: absolute;
-    z-index: 30;
-}
-
-
-li:hover li{
-    font-size: 1em;
-
-}
-
 
 li:hover a {
-    background: rgb(96, 138, 105);
+   color: #ddd;
 }
-
-li:hover li a:hover {
-    background: rgb(121, 160, 129);
-}
-
-
-.myDropdown a {
-      border-top: 0.5px solid #ffffff;
-}
-
 
 
 /* Media Queries */
@@ -102,19 +73,9 @@ li:hover li a:hover {
         border-bottom: 0;
  }
 
-.myDropdown li{
-    display: block;
-    width: 25%;
-}
-
 li:hover li{
     font-size: 11px;
 }
-
-    /* .myDropdown a {
-        width: 215px;
-    } */
-
 
 }
 
