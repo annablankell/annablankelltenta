@@ -85,7 +85,21 @@ li:hover a {
 }
 
 
+.listOne{
+background-color: white;
+max-width: 200px;
+display: flex;
+padding-inline-start: 20px;
+margin-top: 20px;
+}
 
+.beverages > li:nth-child(odd){
+    background-color: #607464;
+}
+
+.beverages > li:nth-child(even){
+    background-color: #5cf77b;
+}
 
 
 /* Media Queries */
