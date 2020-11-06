@@ -24,16 +24,21 @@ body{
     min-height: 80px;
     text-align: center;
     padding: 20px;
+}
+
+h1{
     font-size: 2em;
     font-weight: 500;
     color:  rgb(67, 114, 77);
-
 }
 
+h2{
+    font-size: 1.2em;
+    font-weight: 800;
+}
 
 nav{
     background-color: rgb(67, 114, 77);
-
 }
 
 
@@ -56,6 +61,30 @@ ul li a:hover {
 li:hover a {
    color: #ddd;
 }
+
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: blue solid 2px;
+}
+
+.startDiv{
+    max-width:400px;
+    margin: 20px;
+    border: 1px solid red;
+  padding: 5px;
+}
+
+.inputElement{
+    margin: 30px;
+    border: 2px solid rgb(67, 114, 77);
+}
+
+
+
 
 
 /* Media Queries */
