@@ -135,6 +135,7 @@ margin-left: 10px;
 
 .animationContainer{ 
     height: 150px;
+    margin: 20px;
 }
 .animation {
     margin: 30px;
@@ -155,8 +156,11 @@ margin-left: 10px;
   }
 
 
+  .listDiv{
+      min-height: 100px;
+  }
 
-  .dropList{
+ .dropList{
     display: block;
     margin: 10px;
 
@@ -166,8 +170,6 @@ margin-left: 10px;
 .dropList li{
     display: block;
     position: relative;
-   
-    
 }
 
 .dropListDropdown{
@@ -183,7 +185,23 @@ margin-left: 10px;
 }
 
 
+.transition{
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  transition: width 4s, background-color 3s ease;
+  margin: 20px;
+}
 
+.transition:hover {
+  width: 100px;
+  background-color: blue;
+}
+
+
+img{
+    width: 200px;
+}
 
 
 
