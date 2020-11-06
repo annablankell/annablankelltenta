@@ -21,13 +21,12 @@ body{
 }
 
 .title{
-    min-height: 80px;
-    text-align: center;
+     text-align: center;
     padding: 20px;
 }
 
 h1{
-    font-size: 2em;
+    font-size: 1.4em;
     font-weight: 500;
     color:  rgb(67, 114, 77);
 }
@@ -68,14 +67,13 @@ li:hover a {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    border: blue solid 2px;
 }
 
 .startDiv{
     max-width:400px;
     margin: 20px;
-    border: 1px solid red;
   padding: 5px;
+ 
 }
 
 .inputElement{
@@ -132,18 +130,24 @@ margin-left: 10px;
 
 }
 
+.flexContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .animationContainer{ 
     height: 150px;
     margin: 20px;
 }
 .animation {
-
     width: 50px;
     height: 50px;
     background-color: blue;
     animation-name: divChange;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin: 10px;
   }
   
   @keyframes divChange {
@@ -162,9 +166,8 @@ margin-left: 10px;
   }
 
  .dropList{
+     background-color: rgb(67, 114, 77);
     display: block;
-   
-
 }
 
 
@@ -178,10 +181,9 @@ margin-left: 10px;
     width: 100%;
 }
 
-
 .dropList li:hover ul {
     display: block;
-    position: absolute;
+    /* position: absolute; */
     z-index: 30;
 }
 
@@ -190,6 +192,7 @@ margin-left: 10px;
 }
 
 .transition{
+margin: 10px;
   width: 50px;
   height: 50px;
   background-color: green;
@@ -207,10 +210,8 @@ margin-left: 10px;
 }
 img{
     padding: 5px;
-    width: 200px;
+    width: 300px;
 }
-
-
 
 
 /* Media Queries */
@@ -232,5 +233,11 @@ img{
     font-size: 11px;
 }
 
+
+h1{
+    font-size: 2em;
+    font-weight: 500;
 }
 
+
+    }
