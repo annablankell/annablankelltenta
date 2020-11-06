@@ -160,6 +160,35 @@ margin-left: 10px;
   }
 
 
+  @-webkit-keyframes divChange {
+    from {background-color: blue;}
+    to {background-color: green;}
+    from {height:50px;}
+    to {height: 100px;}
+    from {width:50px;}
+    to {width: 100px;}
+
+  }
+  @-moz-keyframes divChange {
+    from {background-color: blue;}
+    to {background-color: green;}
+    from {height:50px;}
+    to {height: 100px;}
+    from {width:50px;}
+    to {width: 100px;}
+
+  }
+  @-o-keyframes divChange  {
+    from {background-color: blue;}
+    to {background-color: green;}
+    from {height:50px;}
+    to {height: 100px;}
+    from {width:50px;}
+    to {width: 100px;}
+  
+  }
+ 
+
   .listDiv{
       min-height: 100px;
       margin: 20px;
