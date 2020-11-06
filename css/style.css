@@ -79,7 +79,8 @@ li:hover a {
 }
 
 .inputElement{
-    margin: 30px;
+    margin: 30px auto;
+    padding: 10px;
     border: 2px solid rgb(67, 114, 77);
 }
 
