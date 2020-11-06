@@ -87,19 +87,105 @@ li:hover a {
 
 .listOne{
 background-color: white;
-max-width: 200px;
+max-width: 250px;
 display: flex;
 padding-inline-start: 20px;
 margin-top: 20px;
+padding: 20px;
+margin-left: 10px;
 }
 
 .beverages > li:nth-child(odd){
-    background-color: #607464;
+    color: blue;
 }
 
 .beverages > li:nth-child(even){
-    background-color: #5cf77b;
+    color: red;
 }
+
+.listTwo{
+    display: flex;
+    
+    /* margin: 1em auto; */
+    line-height: 1.5em;
+    padding-inline-start: 20px;
+    margin-top: 20px;
+    max-width: 250px;
+    background-color: beige;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.listTwo ol li{
+    margin-left: 30px; 
+    list-style-type: upper-roman;
+
+}
+
+.listTwo ul > li:nth-child(even){
+    background-color: lightpink;
+
+}
+
+.listTwo ul > li:nth-child(odd){
+    background-color: lightgreen;
+
+}
+
+
+.animationContainer{ 
+    height: 150px;
+}
+.animation {
+    margin: 30px;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    animation-name: divChange;
+    animation-duration: 4s;
+  }
+  
+  @keyframes divChange {
+    from {background-color: blue;}
+    to {background-color: green;}
+    from {height:50px;}
+    to {height: 100px;}
+    from {width:50px;}
+    to {width: 100px;}
+  }
+
+
+
+  .dropList{
+    display: block;
+    margin: 10px;
+
+}
+
+
+.dropList li{
+    display: block;
+    position: relative;
+   
+    
+}
+
+.dropListDropdown{
+    display: none;
+    width: 100%;
+}
+
+
+.dropList li:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 30;
+}
+
+
+
+
+
 
 
 /* Media Queries */
@@ -117,7 +203,7 @@ margin-top: 20px;
         border-bottom: 0;
  }
 
-li:hover li{
+.myMenu li:hover li{
     font-size: 11px;
 }
 
